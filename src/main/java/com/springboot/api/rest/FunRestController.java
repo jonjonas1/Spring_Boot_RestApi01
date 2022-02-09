@@ -10,7 +10,7 @@ public class FunRestController {
 	
 	@GetMapping("/")
 	public String sayHello() {
-		return "Hello All Time is: " + LocalDateTime.now();
+		return "Hello My Dear the time is: " + LocalDateTime.now();
 	}
 	
 }
