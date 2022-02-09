@@ -1,0 +1,4 @@
+can run spring from cmd: mvn(mvnw) spring-boot:run
+to compile: mvnw clean compile test
+
+
