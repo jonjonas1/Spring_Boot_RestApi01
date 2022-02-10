@@ -1,4 +1,5 @@
 can run spring from cmd: mvn(mvnw) spring-boot:run
 to compile: mvnw clean compile test
-
+* Spring boot actuator in pom: does health check monitors the app and provide free rest end points
+ ex: localhost:8080/actuator/health
 
