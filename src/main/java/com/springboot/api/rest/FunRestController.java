@@ -13,4 +13,9 @@ public class FunRestController {
 		return "Hello My Dear the time is: " + LocalDateTime.now();
 	}
 	
+	@GetMapping("/work")
+	public String workout() {
+		return "Doing very good exercises, Good Job";
+	}
+	
 }
