@@ -1,5 +1,7 @@
-can run spring from cmd: mvn(mvnw) spring-boot:run
-to compile: mvnw clean compile test
+*we can specify port in properties: server.port=8181
+* can run spring from cmd: mvn(mvnw) spring-boot:run
+	Or run: java -jar mycoolapp.jar
+* to compile: mvnw clean compile test
 * Spring boot actuator in pom: does health check monitors the app and provide free rest end points
- ex: localhost:8080/actuator/health
+ 	ex: localhost:8080/actuator/health
 
